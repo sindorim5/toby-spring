@@ -487,6 +487,6 @@ UNLOCK TABLES;
 
 -- Dump completed on 2010-07-23  7:20:30
 
-CREATE USER spring@localhost IDENTIFIED BY 'book';
-GRANT ALL PRIVILEGES ON *.* TO spring@localhost;
+CREATE USER 'spring'@'localhost' IDENTIFIED BY 'book';
+GRANT ALL PRIVILEGES ON *.* TO 'spring'@'localhost';
 FLUSH privileges;
